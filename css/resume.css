@@ -1,7 +1,7 @@
 body {
-  font-family: 'Open Sans', serif;
+  font-family: 'Roboto Condensed', sans-serif;
   padding-top: 54px;
-  color: #868e96;
+  color: #212121;
 }
 
 @media (min-width: 992px) {
@@ -17,15 +17,20 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', serif;
-  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
   text-transform: uppercase;
-  color: #343a40;
+  color: #212121;
 }
 
 h1 {
   font-size: 6rem;
   line-height: 5.5rem;
+}
+
+.degree {
+  font-size: 3rem;
+  text-transform: none;
 }
 
 h2 {
@@ -40,11 +45,11 @@ h2 {
 }
 
 .list-social-icons a {
-  color: #495057;
+  color: #555;
 }
 
 .list-social-icons a:hover {
-  color: #BD5D38;
+  color: #512DA8;
 }
 
 .list-social-icons a .fa-lg {
@@ -56,7 +61,7 @@ h2 {
 }
 
 .list-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: #512DA8;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -105,7 +110,7 @@ h2 {
 }
 
 section.resume-section {
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 1px solid #D1C4E9;
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
 }
@@ -131,17 +136,17 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #673AB7 !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+  color: #03A9F4 !important;
 }
 
 a {
-  color: #BD5D38;
+  color: #757575;
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #BDBDBD;
 }
